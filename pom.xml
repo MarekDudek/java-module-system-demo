@@ -18,8 +18,9 @@
 
 
     <modules>
-        <module>first</module>
-        <module>second</module>
+        <module>user</module>
+        <module>dao</module>
+        <module>userdao</module>
     </modules>
 
 </project>
