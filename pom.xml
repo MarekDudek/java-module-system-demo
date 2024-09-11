@@ -8,11 +8,18 @@
     <groupId>md</groupId>
     <artifactId>java-module-system-demo</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
 
     <properties>
         <maven.compiler.source>22</maven.compiler.source>
         <maven.compiler.target>22</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
+
+
+    <modules>
+        <module>first</module>
+        <module>second</module>
+    </modules>
 
 </project>
