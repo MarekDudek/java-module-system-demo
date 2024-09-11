@@ -21,6 +21,7 @@
         <module>user</module>
         <module>dao</module>
         <module>userdao</module>
+        <module>app</module>
     </modules>
 
 </project>

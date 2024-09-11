@@ -1,4 +1,5 @@
 module userdao {
-    requires user;
+    requires transitive user;
     requires dao;
+    exports md.userdao;
 }
